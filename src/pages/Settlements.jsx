@@ -199,13 +199,14 @@ const SettlementSummary = () => {
                             count={<span style={{ fontWeight: 600, fontSize: 14 }}>Automation Ready</span>}
                             color="#25D366"
                             style={{
-                                background: '#7de2fc', // light bermuda blue
+                                background: '#25D366', // WhatsApp green
                                 borderRadius: 8,
                                 padding: '0 12px',
                                 minWidth: 120,
                                 whiteSpace: 'nowrap',
                                 boxShadow: '0 1px 4px rgba(0,0,0,0.08)',
-                                border: '1px solid #48c6ef', // bermuda blue border
+                                border: '1px solid #128C7E', // WhatsApp dark green border
+                                color: '#fff', // white text for contrast
                             }}
                         />
                         <Tag icon={<ClockCircleOutlined />} color="processing" style={{ padding: '4px 12px', borderRadius: 8 }}>
